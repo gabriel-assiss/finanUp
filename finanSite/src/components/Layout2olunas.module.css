@@ -1,0 +1,38 @@
+#lay{
+    padding-top: 50px;
+}
+
+.titleMain {
+font-size: 3rem;
+font-weight: 700;
+}
+
+
+.subTitle {
+font-size: 2.1rem;
+font-weight: 700;
+}
+
+
+.paragrafoLarge {
+padding-top: 20px;
+font-size: 1.1rem;
+max-width: 500px;
+font-weight: bold;
+}
+
+
+.paragrafoMedium {
+padding-top: 20px;
+font-size: 1.1rem;
+font-weight: bold;
+max-width: 900px;
+margin: 0 auto;
+}
+
+
+.imgRobo {
+width: 65%;
+max-height: 600px;
+object-fit: contain;
+}
