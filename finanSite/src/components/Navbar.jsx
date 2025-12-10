@@ -1,6 +1,6 @@
 import Style from './Navbar.module.css';
 
-function Navbar() {
+function Navbar({ quizRef }) {
     return(
           <nav className={Style.nav}>
             <div className={Style.logo}>
@@ -8,8 +8,9 @@ function Navbar() {
             </div>
     
             <div className={Style.botoes}>
-              <a href="#" className={Style.a}>Baixar Jogo</a>
-              
+              <a href="#" className={Style.a}  onClick={(e) => {
+                e.preventDefault;
+        quizRef.current?.scrollIntoView({ behavior: "smooth" });}}style={{ cursor: "pointer" }}>Baixar Jogo</a>             
             </div>
           </nav> 
       )
