@@ -11,7 +11,7 @@ return (
 <div className="row align-items-center pt-5">
 {/* Texto */}
 <div className="col-12 col-md-6 d-flex flex-column align-items-center text-center">
-<h2 className={styles.titleMain}>Bem-vindo ao <h2 style={{color:"#6A0DAD" , fontSize:"5rem"}}>FinanUP!</h2></h2>
+<h2 className={styles.titleMain}>Bem-vindo ao <br /> <b style={{color:"#6A0DAD", fontSize:"5rem"}}>FinanUP!</b></h2>
 
 
 <p className={styles.paragrafoLarge}>
